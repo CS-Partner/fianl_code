@@ -1,0 +1,9 @@
+body { margin-top:0; margin-left:0; text-align:center }
+* { font-size:12px; font-family:微软雅黑 宋体;}
+/*第二行菜单样式*/
+.td_menu{ background-image:url(menu_bg.gif); height:41px; text-align:center; }
+.table_menu {width:100%;text-align:center; color:White;}
+A {color: white;font-size: 12px;text-decoration: none; line-height:20px;}
+A:hover{color: #FF6600; }
+.submenucss{border: #666666 1px solid; font: 12px; position: absolute; line-height:20px;
+           padding:0px 0px 0px 0px; background-color:#00a3e8; filter: Alpha(Opacity=80);}

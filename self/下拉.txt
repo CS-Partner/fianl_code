@@ -1,0 +1,18 @@
+<form id="reserve" name="reserve" > 
+<input id="appointment"  name="appointment" type="test" />
+<select name="week" id="week">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<select name="section" id="section">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+</select>
+<input name="b3" type="button"  onclick="showUser_appointment();"/>
+</form>

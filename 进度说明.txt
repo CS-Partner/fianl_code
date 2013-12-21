@@ -1,0 +1,20 @@
+数据库：mytest
+表单：
+info_of_thing:物品的信息:id,name,imag,kind,finish
+info_of_user:用户的信息：username,password,email,iphone,qq
+name_info:物品需求：id,state
+relation:物品所属： id,student(username),iphone,qq
+
+
+CREATE TABLE `info_of_thing` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `kind` int(2) NOT NULL,
+  `finish` int(2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+
+信息发布
+单品信息页面
+图片存储

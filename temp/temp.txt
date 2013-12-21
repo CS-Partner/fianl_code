@@ -1,0 +1,15 @@
+<?php
+	$abc = mysql_connect('localhost','root','');
+	mysql_select_db('mytest');
+	$query = "insert into info_of_thing(id,name,kind,finish) values(5,'过期二手书',1,0);";
+	mysql_query($query);
+	$query = "insert into info_of_thing(id,name,kind,finish) values(6,'过期三手书',1,0);";
+	mysql_query($query);
+	$query = "insert into info_of_thing(id,name,kind,finish) values(7,'过期四手书',1,0);";
+	mysql_query($query);
+	$query = "insert into info_of_thing(id,name,kind,finish) values(8,'过期五手书',1,0);";
+	mysql_query($query);
+	$query = "insert into info_of_thing(id,name,kind,finish) values(9,'过期六手书',1,0);";
+	mysql_query($query);
+	mysql_close();
+?>
